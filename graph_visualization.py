@@ -36,4 +36,3 @@ def visualize_subgraph(my_graph, center, depth=1):
     nx.draw_networkx_edge_labels(G_visual, pos, edge_labels=edge_labels)
     plt.title(f"Subgrafo centrado em {center} (profundidade {depth})")
     plt.show()
-
