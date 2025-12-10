@@ -37,5 +37,3 @@ def visualize_subgraph(my_graph, center, depth=1):
     plt.title(f"Subgrafo centrado em {center} (profundidade {depth})")
     plt.show()
 
-# Exemplo de uso:
-visualize_subgraph(dbz_graph, center="Goku", depth=2)
