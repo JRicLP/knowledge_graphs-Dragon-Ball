@@ -75,7 +75,7 @@ def visualize_all(my_graph):
 if __name__ == "__main__":
     
     #1 - Goku no centro:
-    visualize_subgraph(dbz_graph, center="Goku", depth=2)
+    visualize_subgraph(dbz_graph, center="Goku", depth=1)
     #2 - Vegeta no centro:
     visualize_subgraph(dbz_graph, center="Vegeta", depth=1)
     #3 - Todo o grafo:
