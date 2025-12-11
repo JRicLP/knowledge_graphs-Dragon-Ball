@@ -5,8 +5,8 @@ class Knowledge_Graph:
 
     def add_entity(self, name, properties = {}):
          if name not in self.nodes:
-             self.nodes[name] = properties #Propriedades do nó
-             self.edges[name] = [] #Conexões
+             self.nodes[name] = properties #Atributos da entidade
+             self.edges[name] = [] #Conexões da entidade
              print(f"Entidade {name} adicionada")
              
     def add_relationship(self, source, target, relation_type):
